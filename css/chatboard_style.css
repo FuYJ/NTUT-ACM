@@ -1,0 +1,276 @@
+.page_title {
+    font-size: 30px;
+    height: 105px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 58px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    float: left;
+    box-sizing: border-box;
+}
+.page_selector_top {
+    float: right;
+    width: 475px;
+    height: 56px;
+    margin-top: 78px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    padding-left: 2px;
+    background-color: rgb(127, 127, 127);
+    box-sizing: border-box;
+    box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.content_selector {
+  width: 663px;
+  height: 60px;
+  margin-left: 50px;
+  float: left;
+}
+.content_selector_ul_li {
+  width: 163px;
+  height: 57px;
+  background-color: #BFBFBF;
+  list-style: none;
+  float: left;
+  text-align: center;
+  line-height: 57px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: #404040;
+  border-width: 1px;
+}
+.content-click{
+  background-color: #E5E5E5;
+}
+.content_list {
+    float: left;
+    width: 1180px;
+    padding-bottom: 32px;
+    margin-left: 50px;
+    background-color: rgb(185, 185, 185);
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+.title_block {
+    width: 1132px;
+    height: 70px;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: rgb(127, 127, 127);
+    box-sizing: border-box;
+    box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.title_block_word {
+    float: left;
+    height: inherit;
+    padding-top: 25px;
+    padding-left: 81px;
+    box-sizing: border-box;
+}
+.title_block_user {
+    float: left;
+    height: inherit;
+    padding-top: 25px;
+    margin-left: 250px;
+    box-sizing: border-box;
+}
+.title_block_time {
+    float: right;
+    height: inherit;
+    padding-top: 25px;
+    padding-right: 81px;
+    box-sizing: border-box;
+}
+.content_block {
+  width: 1132px;
+  height: 159px;
+  margin-left: 16px;
+  margin-right: 16px;
+  box-sizing: border-box;
+  position: relative;
+  display: none;
+}
+.content_word {
+  width: 1132px;
+  height: 159px;
+  padding-top: 17px;
+  padding-left: 85px;
+  padding-right: 85px;
+  box-sizing: border-box;
+  color: rgb(0,0,0);
+  background-color: rgb(165, 165, 165);
+}
+.content_reply {
+  width: 151px;
+  height: 58px;
+  position: absolute;
+  top: 63%;
+  left: 86.7%;
+  text-align: center;
+  line-height: 58px;
+  box-sizing: border-box;
+  box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+  color: rgb(255,255,255);
+  background-color: rgb(64, 64, 64);
+}
+.page_selector_down {
+    float: right;
+    width: 475px;
+    height: 56px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    padding-left: 2px;
+    background-color: rgb(127, 127, 127);
+    box-sizing: border-box;
+    box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+    float: right;
+}
+.page_selector_button{
+    display: table;
+    float: left;
+    margin-left: 3px;
+    width: 56px;
+    height: 56px;
+}
+.page_selector_button_content{
+    margin-top: 3px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+}
+.new_discuss {
+  width: 163px;
+  height: 57px;
+  background-color: rgb(127,127,127);
+  color: rgb(255,255,255);
+  list-style: none;
+  float: left;
+  text-align: center;
+  line-height: 57px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: #404040;
+  border-width: 1px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.new_discuss_block {
+  width: 1180px;
+  height: 269px;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 33px;
+  background-color: rgb(127,127,127);
+}
+.new_discuss_title {
+  width: 173px;
+  height: 60px;
+  color: rgb(255,255,255);
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  margin-left: 15px;
+  margin-top: 18px;
+}
+.new_discuss_title_block {
+  width: 373px;
+  height: 60px;
+  color: rgb(0,0,0);
+  background-color: rgb(191,191,191);
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  border-style: solid;
+  border-color: rgb(0,0,0);
+  border-width: 3px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-top: 18px;
+  font-family: 'Setofont';
+  font-size: 25px;
+}
+.new_discuss_user {
+  width: 176px;
+  height: 60px;
+  color: rgb(255,255,255);
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  margin-left: 15px;
+  margin-top: 18px;
+}
+.new_discuss_user_block {
+  width: 374px;
+  height: 60px;
+  color: rgb(0,0,0);
+  background-color: rgb(191,191,191);
+  float: left;
+  line-height: 60px;
+  padding-left: 20px;
+  border-style: solid;
+  border-color: rgb(0,0,0);
+  border-width: 3px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-top: 18px;
+  font-family: 'Setofont';
+  font-size: 25px;
+}
+.new_discuss_content {
+  width: 1138px;
+  height: 159px;
+  background-color: rgb(191,191,191);
+  float: left;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-top: 18px;
+  position: relative;
+}
+.new_discuss_content_word {
+  width: 1138px;
+  height: 159px;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: rgb(191,191,191);
+  box-sizing: border-box;
+  font-family: 'Setofont';
+  font-size: 25px;
+  border-style: solid;
+  border-color: rgb(0,0,0);
+  border-width: 3px;
+}
+.new_discuss_content_submmit {
+  width: 151px;
+  height: 60px;
+  float: right;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 60px;
+  box-sizing: border-box;
+  box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+  color: rgb(255,255,255);
+  background-color: rgb(64, 64, 64);
+  position: absolute;
+  top: 60%;
+  left: 86.5%;
+}
+.new_discuss_content_word_limit {
+  width: 68px;
+  height: 36px;
+  padding-top: 14px;
+  float: right;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 36px;
+  position: absolute;
+  top: 60%;
+  left: 80%;
+}
+.display_block {
+  display: block;
+}

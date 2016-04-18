@@ -1,0 +1,68 @@
+.link_block {
+    height: 353px;
+    margin-bottom: 72px;
+    margin-left: 50px;
+}
+.link_block > a {
+    text-decoration: none;
+    color: inherit;
+}
+.link_block_pic {
+    width: 588px;
+    height: 353px;
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    float: left;
+}
+.link_block_pic > img{
+    max-width: 588px;
+    max-height: 353px;
+        margin: auto;
+}
+.link_block_pic_title {
+    position: absolute;
+    font-size: 30px;
+    top: 249px;
+    left: 0px;
+    width: 588px;
+    height: 104px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+.link_block_pic_mask{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 588px;
+    height: 353px;
+}
+.link_block_pic_mask:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.link_block_description {
+    display: table;
+    float: left;
+    width: 592px;
+    height: 353px;
+    padding-left: 36px;
+    padding-right: 24px;
+    background-color: rgb(191, 191, 191);
+    color: rgb(0, 0, 0);
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+.link_block_description > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.link_block_description h1 {
+    margin: 0px;
+    font-size: 30px;
+}
+.link_block_description p {
+    color: rgb(32, 32, 32);
+    margin: 0px;
+    font-size: 25px;
+}
