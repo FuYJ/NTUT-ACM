@@ -18,7 +18,8 @@ $(document).ready(function(){
   })
 
   $(".new_discuss_content_submmit").click(function(){
-//    $(".content_list .title_block:nth-child(23) div").text('QQ');
+    var tt1a = new Date();
+    var month = tt1a.getMonth() + 1;
     for( var index = 23; index > 2; index -= 2){
       var index2 = index - 2;
       var index3 = index + 1;
@@ -30,6 +31,7 @@ $(document).ready(function(){
     }
     $(".content_list .title_block:nth-child(1) .title_block_word").text($(".new_discuss_title_block").val());
     $(".content_list .title_block:nth-child(1) .title_block_user").text($(".new_discuss_user_block").val());
+    $(".content_list .title_block:nth-child(1) .title_block_time").text(tt1a.getFullYear() + "/" + month + "/" + tt1a.getDay());
     $(".content_list .content_block:nth-child(2) .content_word").text($(".new_discuss_content_word").val());
   });
 
